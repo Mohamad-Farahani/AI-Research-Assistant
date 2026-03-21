@@ -85,7 +85,7 @@ research-ai-assistant/
 
 ## 🔥 Highlights
 
-Built a full LLM pipeline from scratch
+Built a full LLM pipeline from scratch locally
 
 Implemented RAG + vector search
 
