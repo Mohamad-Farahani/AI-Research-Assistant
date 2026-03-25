@@ -24,34 +24,7 @@ An end-to-end LLM system for answering research questions using Retrieval-Augmen
 
 
 ![Demo of the application](structure.png)
-        ┌────────────────────────────┐
-        │   Research Papers (Arxiv)  │
-        └─────────────┬──────────────┘
-                      │
-              Data Processing
-                      │
-          Chunking + Embeddings
-                      │
-        ┌─────────────▼─────────────┐
-        │   Vector DB (FAISS)       │
-        └─────────────┬─────────────┘
-                      │
-              RAG Retrieval
-                      │
-        ┌─────────────▼─────────────┐
-        │  Fine-tuned LLM (LoRA)    │
-        │   SFT + DPO Training      │
-        └─────────────┬─────────────┘
-                      │
-           vLLM Inference Server
-                      │
-        ┌─────────────▼─────────────┐
-        │   API (OpenAI format)     │
-        └─────────────┬─────────────┘
-                      │
-        ┌─────────────▼─────────────┐
-        │   Streamlit UI (Frontend) │
-        └───────────────────────────┘
+
         
 Data → Embeddings → Vector DB → RAG → Fine-tuned Model → vLLM API → UI
 
