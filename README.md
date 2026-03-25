@@ -22,6 +22,8 @@ An end-to-end LLM system for answering research questions using Retrieval-Augmen
 
 ## ⚙️ Architecture
 
+
+![Demo of the application](structure.png)
         ┌────────────────────────────┐
         │   Research Papers (Arxiv)  │
         └─────────────┬──────────────┘
